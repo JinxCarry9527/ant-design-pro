@@ -1,4 +1,4 @@
-FROM circleci/node:latest-browsers
+FROM circleci/node:current-buster
 
 WORKDIR /usr/src/app/
 USER root
