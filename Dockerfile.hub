@@ -14,7 +14,7 @@ RUN npm run fetch:blocks
 RUN npm run build
 
 
-FROM nginx
+FROM nginx:1.29.4-trixie
 
 WORKDIR /usr/share/nginx/html/
 
